@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+.all{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)) ,url("handmade.jpg");
+    background-size: cover;
+    background-position: center;  
+}
+.login{
+    margin-top: 50px;
+    margin-left: 35%;
+    width : 25%;
+    height:75%;
+    border:#009688 solid 3px;
+    backdrop-filter: blur(5px);
+    border-radius:25px;
+    padding:35px 35px;
+    font-size : 25px;
+    box-shadow : 10px 10px 10px #1f201f;
+    position: absolute;
+    text-align: center;
+    
+}
+#one{
+    padding-left:10px;
+    border-radius:15px;
+    height:35px;
+    width:270px;
+}
+.user{
+    padding-top:30px;
+    text-align:center;
+    color:white;
+}
+.pas{
+    padding-top:30px;
+    text-align:center;
+    color:white;
+}
+#sub{
+    width:170px;
+    height:30px;
+    border-radius:70px;
+}
+.submit{
+    padding-top:30px;
+}
+.submit:hover{
+    color:aqua;
+}
